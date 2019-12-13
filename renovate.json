@@ -1,0 +1,11 @@
+{
+  "extends": [
+    "config:base"
+  ],
+  "ignoreUnstable": false,
+  "followTag": "alpha",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
+}
