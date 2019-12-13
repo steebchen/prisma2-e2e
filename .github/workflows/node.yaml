@@ -1,0 +1,19 @@
+name: test os
+on: push
+jobs:
+  test:
+    strategy:
+      matrix:
+        node-version: [8.x, 10.x, 12.x]
+
+    runs-on: ${{ matrix.platform }}
+    steps:
+      - uses: actions/checkout@v1
+
+      - name: use node ${{ matrix.node-version }}
+        uses: actions/setup-node@v1
+        with:
+          node-version: ${{ matrix.platform }}
+
+      - name: base
+        run: cd os/base; sh run.sh
