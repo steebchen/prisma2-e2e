@@ -3,5 +3,9 @@
     "config:base"
   ],
   "ignoreUnstable": false,
-  "followTag": "alpha"
+  "followTag": "alpha",
+  "automerge": true,
+  "major": {
+    "automerge": false
+  }
 }
