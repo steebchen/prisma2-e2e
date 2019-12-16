@@ -11,6 +11,6 @@
   },
   "dependencies": {
     "@prisma/photon": "2.0.0-alpha.453",
-    "some-testing-module-please-ignore-lol": "0.0.2-alpha.1"
+    "some-testing-module-please-ignore-lol": "0.0.2-alpha.4"
   }
 }
